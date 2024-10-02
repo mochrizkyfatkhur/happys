@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "happys-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/happys/HappysWebPart.js",
+          "manifest": "./src/webparts/happys/HappysWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "HappysWebPartStrings": "lib/webparts/happys/loc/{locale}.js"
+  }
+}
