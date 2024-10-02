@@ -252,7 +252,6 @@ export default class HappysWebPart extends BaseClientSideWebPart<IHappysWebPartP
               groupFields: [
                 PropertyPaneTextField('url', {
                   label: "Urls",
-                  //value: "https://jababekainfrastruktur.sharepoint.com/:l:/s/birthdays/FIFB35w4RJ1CvoW-TnftwnUBLoNDfwQBgsY7w3hfxAc65w?e=MDUg1p"
                 })
               ]
             }
